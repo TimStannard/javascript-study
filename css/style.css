@@ -1,211 +1,28 @@
-/*lesson 1*/
-
-#box-container {
-  height: 500px;
-  display: flex;
-}
-
-#box-1 {
-  background-color: dodgerblue;
-  width: 50%;
-  height: 50%;
-}
-
-#box-2 {
-  background-color: orangered;
-  width: 50%;
-  height: 50%;
-}
-
-
-/*lesson 2*/
-
-footer,
-header,
-h3,
-h4,
-.profile-name,
-.follow-btn,
-.stats {
-  display: flex;
+.big-font {
+  font-size:30px;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family:Arial, sans-serif;
+  padding:50px;
+}
+
+#submit {
+  background-color:tomato;
+  color:white;
+}
+
+input, #submit {
+  border:none;
+  border-radius:5px;
   padding:5px;
 }
 
-header .profile-thumbnail {
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-}
-
-header .profile-name {
-  margin-left: 10px;
-}
-
-header .follow-btn {
-  margin: 0 0 0 auto;
-}
-
-header .follow-btn button {
-  border: 0;
-  border-radius: 3px;
-  padding: 5px;
-}
-
-header h3,
-header h4 {
-  margin: 0;
-}
-
-#inner p {
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-#inner hr {
-  margin: 20px 0;
-  border-style: solid;
-  opacity: 0.1;
-}
-
-footer .stats {
-  font-size: 15px;
-}
-
-footer .stats strong {
-  font-size: 18px;
-}
-
-footer .stats .likes {
-  margin-left: 10px;
-}
-
-footer .cta {
-  margin-left: auto;
-}
-
-footer .cta button {
-  border: 0;
-  background: transparent;
-}
-
-
-/*lesson 3*/
-
-.container-lesson3 {
-  display: flex;
-  padding: 5px;
-}
-
-.item {
-  margin: 2px;
-  border: 1px solid #666;
-  background: #f7f7f7;
-  border-radius: 25px;
-  flex: 1 1 0;
-  /*This is the shorthand for flex-grow, flex-shrink and flex-basis combined*/
-}
-
-.itembig {
-  border-radius: 25px;
-  margin: 2px;
-  flex: 2 2 0;
+input {
   background-color: tomato;
-  border: 1px solid red;
+  color:white;
 }
 
-.container-lesson3-justified {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  text-align: center;
-}
-
-.itemLittle {
-  max-width: 10vw;
-  padding-top: 10px;
-  height: 50px;
-  border-radius: 25px;
-  margin: 2px;
-  flex: 1 1 auto;
-  background-color: lightblue;
-  border: 1px solid #f7f7f7;
-}
-
-.doubleup {
-  max-width: 20vw;
-  flex: 2 2 auto;
-}
-
-/*lesson 4*/
-.wrapper {
-  display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-}
-
-.wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
-}
-
-.aside {
-  text-align:left;
-}
-
-.header {
-  background: tomato;
-}
-
-.footer {
-  background: lightgreen;
-}
-
-.main {
-  text-align: left;
-  background: deepskyblue;
-}
-
-.aside-1 {
-  background: gold;
-}
-
-.aside-2 {
-  background: hotpink;
-}
-
-.product-container {
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:left;
-  align-content: flex-start;
-  min-width: 0;
-  width: auto;
-  margin-right:-10px;
-}
-
-.product-item {
-  min-width:250px;
-  max-width:280px;
-    flex:2 2 0px;
-    padding:20px;
-    margin: 0px 10px 10px 0px;
-  background-color:white;
-  border:1px solid black;
-}
-
-@media all and (min-width: 600px) {
-  .aside { flex: 1 0 0; }
-}
-
-@media all and (min-width: 800px) {
-  .main    { flex: 4 0px; }
-  .aside-1 { order: 1; } 
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; };
+h3 {
+  font-size:30px;
 }

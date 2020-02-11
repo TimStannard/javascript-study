@@ -26,3 +26,19 @@ input {
 h3 {
   font-size:30px;
 }
+
+.box {
+  background:#f7f7f7;
+  border-radius:10px;
+  display:inline-block;
+  margin:10px;
+  padding:20px;
+  border:1px solid #666;
+}
+
+.box h3 {
+  padding:0;
+  margin:0;
+  font-size:20px;
+
+}

@@ -30,10 +30,11 @@ h3 {
 .box {
   background:#f7f7f7;
   border-radius:10px;
-  display:inline-block;
+  display:block;
   margin:10px;
   padding:20px;
-  border:1px solid #666;
+  border-top:1px solid #666;
+  float:left;
 }
 
 .box h3 {

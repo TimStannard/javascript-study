@@ -13,7 +13,7 @@ var ourMusic = [
   },
   {
     "artist": "Jon Jones",
-    "title": "GOAT",
+    "title": "Good fighter",
     "release_year": 2020,
     "formats": [ 
       "CD", 
@@ -24,7 +24,7 @@ var ourMusic = [
   },
    {
     "artist": "Chael Sonnen",
-    "title": "Even more of A GOAT",
+    "title": "GOAT",
     "release_year": 2021,
     "formats": [ 
       "Floppy Disk", 

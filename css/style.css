@@ -33,7 +33,7 @@ h3 {
   display:block;
   margin:10px;
   padding:20px;
-  border-top:1px solid #666;
+  border-top:5px solid #666;
   float:left;
 }
 
@@ -42,4 +42,28 @@ h3 {
   margin:0;
   font-size:20px;
 
+}
+
+.es-box {
+
+}
+
+button {
+  padding:10px 20px;
+  font-size:16px;
+  border-radius:10px;
+  background:#f7f7f7
+  border:none;
+  border:1px solid black;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  background: black;
+  color:white;
+  cursor:pointer;
+}
+
+.bold {
+  font-weight:600;
 }

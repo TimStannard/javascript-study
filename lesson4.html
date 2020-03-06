@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>ES6</title>
+    <title>ES5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <h1>ES6</h1>
+<div class="box">
+    <p id="array-reduce" class="bold"></p>
+    <p>Click the button to get the sum of the rounded numbers in the array.</p>
+    <button onclick="myFunction()">Try it</button>
+
+    <p>Sum of numbers in array: <span id="demo" class="bold"></span></p>
+</div>
+
+<script>
+
+var numbers = [15.5, 52.3, 1.1, 4.7];
+document.getElementById("array-reduce").innerHTML = "Array: " + numbers.join(', ');
+function getSum(total, num) {
+  return total + Math.round(num);
+}
+function myFunction(hg) {
+  document.getElementById("demo").innerHTML = numbers.reduce(getSum, 0);
+}
+</script>
 
 </body>
-
-</html> 
+</html>
